@@ -63,7 +63,7 @@ const TicTacToe = () => {
     data = ["", "", "", "", "", "", "", "", ""];
     setCount(0);
     setLock(false);
-    titleRef.current.innerHTML = "Tic Tac Toe Game <span>SE NPRU</span>";
+    titleRef.current.innerHTML = "Tic Tac Toe Game<span>SE NPRU</span>";
     let boxes = document.querySelectorAll(".boxes");
     boxes.forEach((box) => {
       box.innerHTML = "";
@@ -73,7 +73,7 @@ const TicTacToe = () => {
   return (
     <div className="container">
       <h1 className="title" ref={titleRef}>
-        Tic Tac Toe Game <span>SE NPRU</span>
+        Burit Srisawan <span>SE NPRU</span>
       </h1>
       <div className="board">
         <div className="row1">
